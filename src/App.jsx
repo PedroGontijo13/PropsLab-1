@@ -15,7 +15,7 @@ function App() {
         <div className="row">
           <div className="col-12">
             {jokesData.map((item, index) => (
-              <Card data={item} func={f} id={index} key={index} />
+              <Card data={item} func={f} id={index + 1} key={index} />
             ))}
           </div>
         </div>
